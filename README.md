@@ -43,6 +43,11 @@ Server written in Python, based on gevent and pygame. Easy to hack with, but a b
     sudo apt-get install python-gevent python-pygame python-cairo
     mkdir save
     python pixelflut.py brain.py
+    
+    conda 
+    conda install -c anaconda gevent
+    conda install -c anaconda cairo
+    conda install -c cogsci pygame
 
 #### `/pixelwar` (java server)
 
