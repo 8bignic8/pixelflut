@@ -44,7 +44,9 @@ Server written in Python, based on gevent and pygame. Easy to hack with, but a b
     mkdir save
     python pixelflut.py brain.py
     
-    conda 
+    OR with Anaconda https://docs.conda.io/projects/conda/en/latest/index.html
+    conda create -n pixServer python=3
+    conda activate pixServer
     conda install -c anaconda gevent
     conda install -c anaconda cairo
     conda install -c cogsci pygame
